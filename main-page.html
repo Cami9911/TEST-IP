@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://fontawesome.com/icons/chart-pie?style=solid">
     <link rel="stylesheet" type="text/css" href="Comun.css">
     <link rel="stylesheet" type="text/css" href="main-page.css">
-    <script src="postUrl.js"></script>
-    <script src="postMessage.js"></script>
     <title>Post Page</title>
 </head>
 
@@ -48,9 +46,9 @@
             <div class="post-area">
                 <h1>La ce te gandesti astazi?</h1>
                 <div class="post-content">
-                    <textarea id="source"></textarea>
-                    <button class="btn attach-button" onClick="findUrl()">Atach</button>
-                    <button class="btn attach-button" id="post-btn" onClick="postMess()">Post It</button>
+                    <textarea><!--TEXT AREA AICI--> </textarea>
+                    <button class="btn attach-button">Atach</button>
+                    <button class="btn attach-button">Post It</button>
                 </div>
             </div>
         </div>
@@ -70,8 +68,8 @@
     </section>
 
     <script type=text/javascript>
-        console.log("HELLO FROM MAIN");
-        console.log(sessionStorage.getItem("id_user"));
+    	console.log("HELLO FROM MAIN");
+    	console.log(sessionStorage.getItem("id_user"));
     </script>
 </body>
 
